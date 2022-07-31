@@ -79,7 +79,7 @@
               fullscreenButton.style.display = "";
             }
             fullscreenButton.onclick = () => {
-              unityInstance.SetFullscreen(1);
+              window.vuplex.SetFullscreen(1)/*https://support.vuplex.com/articles/webgl-fullscreen*/;
             };
           }
         }).catch((message) => {
